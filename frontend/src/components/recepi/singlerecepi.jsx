@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import axios from "axios";
 import { useNavigate } from 'react-router-dom';
 
-let url = "http://localhost:9000";
+let url = "https://recepi-app-ga7p.onrender.com";
 
 const Singlerecepi = (item) => {
   item=item.item

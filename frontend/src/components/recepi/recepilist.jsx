@@ -6,7 +6,7 @@ import { DataContext } from '../datacontext';
 const RecepiList = (props) => {
     const { query, setquery } = useContext(DataContext);
     let [allrecpei,setallrecepi]=useState([])
-    let url = "http://localhost:9000"
+    let url = "https://recepi-app-ga7p.onrender.com";
 
     //calling the fetch function to get the data
     async function fetchdata(){

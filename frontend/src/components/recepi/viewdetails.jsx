@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../home/navbar'
 import axios from 'axios'
 import { useSearchParams } from "react-router";
-let url = "http://localhost:9000";
+let url = "https://recepi-app-ga7p.onrender.com";
 const Viewdetail = () => {
     let [detail,setdetail]=useState('')
     async function fetchdata(){

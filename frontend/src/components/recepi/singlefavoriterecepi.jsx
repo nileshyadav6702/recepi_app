@@ -2,7 +2,7 @@ import { Book, Clock, Heart, User } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-let url = "http://localhost:9000";
+let url = "https://recepi-app-ga7p.onrender.com";
 const Singlefavoriterecepi = (item, isfavorite) => {
   item = item.item;
   async function addtofavorite() {

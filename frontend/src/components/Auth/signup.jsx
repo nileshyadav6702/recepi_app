@@ -2,7 +2,7 @@ import { Mail, Lock, Eye, EyeOff ,User} from "lucide-react";
 import React, { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
-const url = "http://localhost:9000";
+const url = "https://recepi-app-ga7p.onrender.com";
 const Signup = () => {
     const [username,setusername]=useState('')
     const [email,setemail]=useState('')

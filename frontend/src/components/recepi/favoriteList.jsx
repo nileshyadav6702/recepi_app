@@ -6,7 +6,7 @@ import axios from 'axios';
 
 const FavoriteList = () => {
   let [favoriterecepi, setfavoriterecepi] = useState([]);
-  let url = "http://localhost:9000";
+  let url = "https://recepi-app-ga7p.onrender.com";
 
   //calling the fetch function to get the data
   async function fetchdata() {
