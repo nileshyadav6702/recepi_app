@@ -9,12 +9,17 @@ const Singlerecepi = (item) => {
   item=item.item
   let navigate=useNavigate()
   async function addtofavorite(){
-    console.log('hi')
-    let res=await axios.post(`${url}/user/favorite/${item.id}`,{},{
-      headers:{
-        auth:localStorage.getItem('token')
-      }
-    })
+    if(localStorage.getItem('token')){
+
+      let res=await axios.post(`${url}/user/favorite/${item.id}`,{},{
+        headers:{
+          auth:localStorage.getItem('token')
+        }
+      })
+    }
+    else{
+      alert('sign in to add to favorite')
+    }
   }
   return (
     <div className="recepicard" key={item.id}>
