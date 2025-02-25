@@ -9,7 +9,7 @@ Fullstack
 
 ## Deployed App
 
-- **Frontend:** [LaunchFund on Netlify](venerable-capybara-d18ad4.netlify.app)
+- **Frontend:** [LaunchFund on Netlify](https://venerable-capybara-d18ad4.netlify.app/)
 - **Backend:** [LaunchFund on Render](https://recepi-app-ga7p.onrender.com)
 
 
